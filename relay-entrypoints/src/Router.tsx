@@ -5,7 +5,6 @@ import { createBrowserHistory, Location } from "history";
 import { matchRoutes, MatchedRoute } from "react-router-config";
 
 import {
-  // @ts-expect-error
   loadEntryPoint,
   EntryPointContainer,
   RelayEnvironmentProvider,
